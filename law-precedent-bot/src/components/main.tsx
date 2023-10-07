@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
 
 export default function Main({ children }: { children: ReactNode }) {
-  return <main className="mb-60">{children}</main>;
+  return <main>{children}</main>;
 }
